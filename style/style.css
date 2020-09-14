@@ -1,0 +1,152 @@
+
+
+
+/* * {
+  font-family: 'Indie Flower', cursive;
+} */
+
+body {
+  padding: 0px;
+}
+
+nav {
+   background:white; 
+   margin: 0px;
+   padding-right: 0px !important;
+   padding-left: 0px !important;
+}
+
+#particles-js{
+  height:100%;
+  width: 100%;
+  z-index: -10;
+  position: absolute;
+}
+
+
+li,
+.navbar-brand {
+  float: none;
+  text-align: center;
+  /* font-size: calc(12px + 1vw); */
+  font-size: 1rem
+}
+
+ #home {
+  background-image: url("../images/mountains.png");
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.frontend {
+  
+  font-size: 5vw;
+  font-weight: 400px;
+  color: white;
+  mix-blend-mode: difference;
+}
+
+/* #aboutme {
+  background-color: rgb(234, 239, 247);
+} */
+
+.photo {
+  max-width: 200px;
+  border: white solid 3px;
+}
+
+  
+
+.rainbowText {
+  /* font-family: 'Indie Flower', cursive; */
+  font-size: 3 vw;
+  color: #f35626;
+  background-image: -webkit-linear-gradient(160deg, #f63900, #f18e03);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  -webkit-animation: hue 5s infinite linear;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(360deg);
+  }
+}
+
+/* .iknow {
+  font-family: 'Indie Flower', cursive;
+  font-size: calc(16px + 5vw);
+  color: white;
+  /* mix-blend-mode: difference; */
+/* } */ 
+
+h1{
+  font-size: 3.5vw;
+}
+
+h2{
+  font-size: 3vw
+}
+
+h3 {
+  font-size: 6rem;
+}
+
+h4 {
+  font-size: 3rem;
+}
+
+
+
+p {
+  font-size: 2vw;
+}
+
+@media screen and (min-width:1000px) {
+  .studypals {
+    -ms-transform: skewY(-5deg);
+    /* IE 9 */
+    -webkit-transform: skewY(-5deg);
+    /* Safari */
+    transform: skewY(-5deg);
+    /* Standard syntax */
+  }
+
+  .hungryants {
+    -ms-transform: skewY(5deg);
+    /* IE 9 */
+    -webkit-transform: skewY(5deg);
+    /* Safari */
+    transform: skewY(5deg);
+    /* Standard syntax */
+  }
+
+  .projects img {
+    border: white solid 4px;
+  }
+}
+
+.projects {
+  background-color: #2A2A3F;
+  color: white;
+}
+
+.projects h4 {
+  margin-top: 2rem;
+}
+
+.contact {
+  color: white;
+  background-color: black;
+}
+
+.contact img {
+  width: 100px;
+}
+
