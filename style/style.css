@@ -33,11 +33,12 @@ li,
 }
 
  #home {
-  background-image: url("../images/mountains.png");
+  /* background-image: url("../images/mountains.png");
   min-height: 100%;
-  background-position: center;
+  background-position: center5
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+
 } 
 
 .frontend {
@@ -87,7 +88,7 @@ li,
 /* } */ 
 
 h1{
-  font-size: 3.5vw;
+  font-size: 5vw;
 }
 
 h2{
