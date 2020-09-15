@@ -117,6 +117,7 @@ p {
 min-width:60%;
 max-width: 500px;
 margin: 0 auto;
+border: 1px solid black;
 }
 
 @media screen and (min-width:991px) {
@@ -160,8 +161,8 @@ margin: 0 auto;
 }
 
 .projects {
-  background-color: #2A2A3F;
-  color: white;
+  background-colorwhite;
+  color:black;
 }
 
 .projects h4 {
